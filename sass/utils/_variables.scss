@@ -1,0 +1,29 @@
+:root {
+--Primary: #eb2f64;
+--Primary-light: #FF3366;
+--Primary-dark: #BA265D;
+
+--Grey-light-1: #faf9f9;
+--Grey-light-2: #f4f2f2;
+--Grey-light-3: #F1F3F4;
+--Grey-light-4: #ccc;
+
+--Grey-dark-1: #333;
+--Grey-dark-2: #777;
+--Grey-dark-3: #999;
+
+--gutter-vertical: 8rem;
+--gutter-horizontal: 6rem;
+
+--shadow-dark: 0 2rem 6rem rgba(0,0,0, .3);
+}
+
+$bp-largest: 75em;
+$bp-lg-900: 58em;
+$bp-lg-760: 47.5em;
+$bp-lg-750: 49;
+$bp-lg-768: 48;
+$bp-lg-700: 45em;
+$bp-md-600: 39.5em;
+$bp-sm-500: 43.75em;
+$bp-xs-375: 24em;

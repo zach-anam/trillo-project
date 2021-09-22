@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+$bp-large: 72.88em;
+html {
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-large) {
+      font-size: 50%;
+    
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right bottom, var(--Primary), var(--Primary-dark));
+  background-size: cover;
+  color: var(--Grey-dark-2);
+}
